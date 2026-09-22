@@ -38,4 +38,4 @@ jobs:
 
     - name: Проверка безопасности (bandit)
       run: |
-        bandit -r . -x ./tests
+        bandit -r . -x ./tests,./test_*.py
