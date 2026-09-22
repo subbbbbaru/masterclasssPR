@@ -16,3 +16,4 @@ def test_calculate_discount_invalid_price():
 def test_calculate_discount_invalid_discount():
     with pytest.raises(ValueError):
         calculate_discount(100, 150)
+        

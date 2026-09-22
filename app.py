@@ -9,7 +9,7 @@ def calculate_discount(price: float, discount: float) -> float:
         raise ValueError("Цена должна быть положительной")
     if not (0 <= discount <= 100):
         raise ValueError("Скидка должна быть в диапазоне от 0 до 100")
-    
+
     return price * (1 - discount / 100)
 
 
